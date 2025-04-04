@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-black text-white fixed w-full top-0 left-0 z-10 p-4">
+        <div class="flex justify-between items-center">
+        <h1 class="text-xl font-bold">Recipe Website</h1>
+        <div class="flex items-center space-x-4">
+            <input type="text" id="search" class="p-2 rounded" placeholder="Search recipes...">
+            <button id="menu-toggle" class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <!-- Main Side Menu -->
+    <nav id="side-menu" class="fixed left-0 top-0 w-64 bg-gray-800 text-white h-full transform -translate-x-full transition-transform ease-in-out">
+        <div class="p-4">
+            <h2 class="text-2xl font-bold">Menu</h2>
+            <ul class="space-y-4 mt-8">
+                <li><a href="index.html">Home</a></li>
+                <li><button id="recipes-button">Recipes</button></li>
+                <li><a href="grocery.html">Grocery List</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Recipe List Side Menu (Initially Hidden) -->
+    <nav id="recipe-list-menu" class="fixed left-0 top-0 w-64 bg-gray-800 text-white h-full transform -translate-x-full transition-transform ease-in-out">
+        <div class="p-4">
+            <button id="back-button" class="text-white text-lg">&larr; Back</button>
+            <h2 class="text-2xl font-bold mt-4">Recipes</h2>
+            <ul id="recipe-list" class="space-y-4 mt-8"></ul>
+        </div>
+    </nav>
+
+    <!-- Search Results Container -->
+    <main class="p-4">
+        <div id="results-container">
+            <h2 class="text-lg font-bold">Results for: <span id="search-query"></span></h2>
+            <div id="search-results" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-4">
+                <!-- Recipe cards will be added here -->
+            </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

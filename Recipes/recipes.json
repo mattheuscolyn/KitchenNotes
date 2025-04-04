@@ -1,0 +1,372 @@
+[
+    {
+        "title": "Korean Inspired Ground Beef Bowl",
+        "image": "Images/Korean-Beef-Bowl.jpg",
+        "total_time": "15 Minutes",
+        "yield": "4 Servings",
+        "description": "Hearty rice bowl with a hint of spice. Best served with a side veggie.",
+        "ingredients": [
+            {
+                "quantity": "¼",
+                "unit": "cup",
+                "name": "Brown Sugar",
+                "preparation": "packed"
+            },
+            {
+                "quantity": "¼",
+                "unit": "cup",
+                "name": "Soy Sauce"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "name": "Sesame Oil"
+            },
+            {
+                "quantity": "½",
+                "unit": "tsp",
+                "name": "Gochugaru"
+            },
+            {
+                "quantity": "¼",
+                "unit": "tsp",
+                "name": "Ginger"
+            },
+            {
+                "quantity": "3",
+                "unit": "cloves",
+                "name": "Garlic"
+            },
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "name": "Ground Beef"
+            },
+            {
+                "quantity": "2",
+                "unit": "stalks",
+                "name": "Green Onion"
+            },
+            {
+                "quantity": "¼",
+                "unit": "tsp",
+                "name": "Sesame Seeds"
+            }
+        ],
+        "instructions": [
+            "In a small bowl, whisk together brown sugar, soy sauce, sesame oil, red pepper flakes and ginger.",
+            "Heat vegetable oil in a large cast iron skillet over medium high heat.",
+            "Add garlic and cook, stirring constantly, until fragrant, about 1 minute.",
+            "Add ground beef and cook until browned, about 3-5 minutes, making sure to crumble the beef as it cooks; drain excess fat.",
+            "Stir in soy sauce mixture and green onions until well combined, allowing to simmer until heated through, about 2 minutes.",
+            "Serve immediately, garnished with green onion and sesame seeds, if desired."
+        ]
+    },
+    {
+        "title": "Spicy Pork Bowl",
+        "image": "Images/Spicy-Pork-Bowl.jpg",
+        "description": "Sweet and spicy pork with veggies and tasty dressing.",
+        "ingredients": [
+            {
+                "quantity": "1¼",
+                "unit": "lb",
+                "name": "Pork Tenderloin"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Sambal Oelek"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "name": "Brown Sugar"
+            },
+            {
+                "quantity": "1",
+                "unit": "inch",
+                "name": "Ginger"
+            },
+            {
+                "quantity": "1",
+                "unit": "clove",
+                "name": "Garlic"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Soy Sauce"
+            },
+            {
+                "quantity": "2¼",
+                "unit": "tsp",
+                "name": "Toasted Sesame Oil"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Vegetable Oil"
+            },
+            {
+                "quantity": "2",
+                "unit": "Medium",
+                "name": "Carrots"
+            },
+            {
+                "quantity": "1",
+                "unit": "bunch",
+                "name": "Collard Greens",
+                "preparation": "ribs and stems removed, leaves sliced"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Seasoned Rice Vinegar"
+            },
+            {
+                "quantity": "1",
+                "unit": "stalk",
+                "name": "Green Onion"
+            }
+        ],
+        "instructions": [
+            "Freeze pork tenderloin until firm around the edges, 30–45 minutes.",
+            "Combine chili paste, brown sugar, ginger, garlic, 2 Tbsp. soy sauce, and 2 tsp. sesame oil in a resealable plastic bag (or medium bowl if you aren’t feeling the plastic). Thinly slice pork with a long sharp knife. Add to marinade, seal bag, and knead to thoroughly coat. Let sit at least 10 minutes and up to 2 hours.",
+            "Heat 1 Tbsp. vegetable oil in a large nonstick skillet over medium-high. When oil is very hot, add half of pork in a single layer; season very lightly with salt. Cook, undisturbed, increasing heat to high if needed, until dark brown underneath, about 1 minute. Toss pork, breaking up with tongs or a wooden spoon, and continue to cook, tossing, until cooked through, about 1 minute more. Transfer to a plate. Repeat with another 1 Tbsp. vegetable oil and remaining pork (you may want to briefly remove skillet from heat when adding more oil so it doesn’t spatter). Wipe out skillet.",
+            "Heat remaining 1 Tbsp. vegetable oil in skillet over medium-high. Add carrots and cook in a single layer, undisturbed, until beginning to soften and brown underneath, about 2 minutes. Add collard greens and toss to wilt. Cook, tossing occasionally, until vegetables are crisp-tender, about 2 minutes.",
+            "Combine vinegar and remaining 1 Tbsp. soy sauce and ¼ tsp. sesame oil in a small bowl.",
+            "To serve, divide rice among bowls and arrange pork and vegetables over. Top each with some scallions and a spoonful of gochujang; drizzle with dressing."
+        ]
+    },
+    {
+        "title": "Tiktok Mac and Cheese",
+        "image": "Images/Tiktok-Mac-and-Cheese.jpg",
+        "description": "Ultra cheesy, creamy baked mac and cheese with a crispy golden top—TikTok famous for a reason.",
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "name": "Cavatappi",
+                "preparation": "cooked"
+            },
+            {
+                "quantity": "16",
+                "unit": "oz",
+                "name": "Mozzarella Cheese",
+                "preparation": "grated"
+            },
+            {
+                "quantity": "16",
+                "unit": "oz",
+                "name": "Colby Jack Cheese",
+                "preparation": "grated"
+            },
+            {
+                "quantity": "8",
+                "unit": "oz",
+                "name": "Cheddar Cheese",
+                "preparation": "grated"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Garlic Powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Smoked Paprika"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "name": "Salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "name": "Black Pepper"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Butter"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Flour"
+            },
+            {
+                "quantity": "12",
+                "unit": "oz",
+                "name": "Evaporated Milk",
+                "preparation": "1 can"
+            },
+            {
+                "quantity": "2",
+                "unit": "cups",
+                "name": "Heavy Cream"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Dijon Mustard"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F (175°C). Grease a 9x13-inch baking dish.",
+            "Cook cavatappi according to package instructions. Drain and set aside.",
+            "Combine all shredded cheeses in a bowl and divide half into another bowl. Set aside.",
+            "Combine garlic powder, smoked paprika, salt, and pepper in a small bowl. Divide in half and set aside.",
+            "Melt butter in a large skillet over medium heat. Add half the seasoning mixture and flour. Stir until it becomes paste-like, about 3 to 5 minutes.",
+            "Add evaporated milk and whisk until thickened.",
+            "Add heavy cream and the remaining seasoning mixture. Mix until combined.",
+            "Whisk in Dijon mustard until thick.",
+            "Slowly add in half the cheese mixture, letting each addition melt before adding more.",
+            "Stir in cooked cavatappi until fully coated with cheese sauce.",
+            "Layer macaroni and reserved shredded cheese in the prepared baking dish. Repeat layers.",
+            "Bake for 25 to 30 minutes until cheese is melted and bubbly.",
+            "Broil for 2 minutes until the top is golden brown."
+        ]
+    },
+    {
+        "title": "Penne Alla Vodka",
+        "image": "Images/Penne-Alla-Vodka.jpg",
+        "description": "A creamy, rich tomato-based pasta sauce with a splash of vodka for depth—easy, elegant comfort food.",
+        "ingredients": [
+            {
+                "quantity": "8",
+                "unit": "oz",
+                "name": "Penne Pasta",
+                "preparation": "uncooked"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Olive Oil"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "name": "Butter"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "",
+                "name": "Small Onion",
+                "preparation": "finely chopped"
+            },
+            {
+                "quantity": "1",
+                "unit": "clove",
+                "name": "Garlic",
+                "preparation": "minced"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "cup",
+                "name": "Vodka"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "cup",
+                "name": "Tomato Paste"
+            },
+            {
+                "quantity": "3/4",
+                "unit": "cup",
+                "name": "Heavy Cream"
+            },
+            {
+                "quantity": "2",
+                "unit": "leaves",
+                "name": "Fresh Basil",
+                "preparation": "sliced thin, optional"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "cup",
+                "name": "Parmesan Cheese",
+                "preparation": "Freshly Grated"
+            }
+        ],
+        "instructions": [
+            "Boil a generously salted pot of water for the penne and cook it al dente according to package directions.",
+            "Meanwhile, add the olive oil and butter to a skillet over medium heat. Sauté the onion for about 5 minutes until softened.",
+            "Add the garlic and cook for about 30 seconds.",
+            "Add the vodka and let it bubble for about 30 seconds.",
+            "Stir in the tomato paste until the sauce is smooth.",
+            "Stir in the heavy cream and reduce heat to medium-low. Let the sauce warm and thicken, about 2–3 minutes.",
+            "Season with salt and pepper to taste. Add fresh basil if using.",
+            "Toss the sauce with drained penne pasta. If needed, thin the sauce with a splash of pasta water before draining.",
+            "Serve with freshly grated parmesan cheese if desired."
+        ]
+    },
+    {
+        "title": "Shelley's Favorite Chicken",
+        "image": "Images/Shelleys-Favorite-Chicken.jpg",
+        "description": "Juicy, flavorful chicken breasts baked with a sweet and savory seasoning blend. A weeknight staple in Shelley's kitchen!",
+        "ingredients": [
+            {
+                "quantity": "1 1/2",
+                "unit": "lb",
+                "name": "Chicken Breasts",
+                "preparation": "pounded thin"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "name": "Olive Oil"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tbsp",
+                "name": "Brown Sugar"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Paprika"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Dried Oregano"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "name": "Garlic Powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "name": "Salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "name": "Black Pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "bunch",
+                "name": "Fresh Parsley",
+                "preparation": "finely chopped, optional garnish"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 425°F.",
+            "Pound chicken to about 1.5cm (0.6\") thickness using a rolling pin, mallet, or your fist for even cooking.",
+            "Mix together the seasoning ingredients in a small bowl.",
+            "Line a baking tray with foil and parchment paper. Place chicken breasts smooth-side down on tray.",
+            "Drizzle with about 1 tsp olive oil and rub over with fingers. Sprinkle with half of the seasoning mixture.",
+            "Flip chicken. Drizzle with remaining 1 tsp oil, rub with fingers, and sprinkle the rest of the seasoning on top.",
+            "Bake for about 18 minutes or until the surface is golden and internal temperature reaches 165°F/75°C.",
+            "Remove from oven and transfer to serving plates immediately.",
+            "Let rest for 3–5 minutes before serving. Garnish with chopped parsley if desired."
+        ]
+    }
+    
+]
