@@ -12,12 +12,12 @@
   <!-- Header -->
   <header class="bg-black text-white fixed w-full top-0 left-0 z-10 p-4">
     <div class="flex justify-between items-center">
-      <h1 class="text-xl font-bold">Recipe Website</h1>
+      <h1 class="text-xl font-bold"><a href="/index.html">Recipe Website</a></h1>
       <div class="flex items-center space-x-4">
         <input type="text" id="search" class="p-2 rounded" placeholder="Search recipes...">
         <button id="menu-toggle" class="lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
       </div>
@@ -27,30 +27,157 @@
   <!-- Main Side Menu -->
   <nav id="side-menu" class="fixed left-0 top-0 w-64 bg-gray-800 text-white h-full transform -translate-x-full transition-transform ease-in-out">
     <div class="p-4">
-        <h2 class="text-2xl font-bold">Menu</h2>
-        <ul class="space-y-4 mt-8">
-            <li><a href="index.html">Home</a></li>
-            <li><button id="recipes-button">Recipes</button></li>
-            <li><a href="grocery.html">Grocery List</a></li>
-        </ul>
+      <h2 class="text-2xl font-bold">Menu</h2>
+      <ul class="space-y-4 mt-8">
+        <li><a href="index.html">Home</a></li>
+        <li><button id="recipes-button">Recipes</button></li>
+        <li><a href="grocery.html">Grocery List</a></li>
+      </ul>
     </div>
   </nav>
 
-  <!-- Recipe List Side Menu (Initially Hidden) -->
+  <!-- Recipe List Side Menu -->
   <nav id="recipe-list-menu" class="fixed left-0 top-0 w-64 bg-gray-800 text-white h-full transform -translate-x-full transition-transform ease-in-out">
     <div class="p-4">
-        <button id="back-button" class="text-white text-lg">&larr; Back</button>
-        <h2 class="text-2xl font-bold mt-4">Recipes</h2>
-        <ul id="recipe-list" class="space-y-4 mt-8"></ul>
+      <button id="back-button" class="text-white text-lg">&larr; Back</button>
+      <h2 class="text-2xl font-bold mt-4">Recipes</h2>
+      <ul id="recipe-list" class="space-y-4 mt-8"></ul>
     </div>
   </nav>
 
   <!-- Main Content -->
-  <main class="pt-20">
-    <h1>Grocery List</h1>
-    <p>In development...</p>
+  <main class="pt-24 px-6 max-w-4xl mx-auto">
+    <section id="recipe-selection" class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Select Recipes:</h2>
+      <ul id="recipe-checkboxes" class="space-y-2"></ul>
+      <div class="flex space-x-4 mt-6">
+        <button id="generate-button" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">
+          Generate Grocery List
+        </button>
+        <button id="clear-button" class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700 hidden">
+          Clear Grocery List
+        </button>
+      </div>
+    </section>
+
+    <section id="grocery-list-section" class="hidden">
+      <h2 class="text-2xl font-semibold mb-4">Your Grocery List:</h2>
+      <ul id="grocery-list" class="list-disc pl-6 space-y-2"></ul>
+    </section>
   </main>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const recipeCheckboxes = document.getElementById("recipe-checkboxes");
+      const generateButton = document.getElementById("generate-button");
+      const groceryListSection = document.getElementById("grocery-list-section");
+      const groceryList = document.getElementById("grocery-list");
+  
+      const recipes = await fetchRecipes();
+  
+      recipes.forEach(recipe => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+          <label class="flex items-center">
+            <input type="checkbox" value="${recipe.title}" class="mr-2">
+            ${recipe.title}
+          </label>
+        `;
+        recipeCheckboxes.appendChild(li);
+      });
+  
+      generateButton.addEventListener("click", () => {
+        const selectedTitles = Array.from(recipeCheckboxes.querySelectorAll("input:checked")).map(cb => cb.value);
+        const selectedRecipes = recipes.filter(r => selectedTitles.includes(r.title));
+  
+        const unitConversions = {
+          "cup": { base: "cup", toBase: 1, fromBase: 1 },
+          "Tbsp": { base: "cup", toBase: 1/16, fromBase: 16 },
+          "tsp": { base: "cup", toBase: 1/48, fromBase: 48 },
+        };
+  
+        const groceryMap = new Map();
+  
+        selectedRecipes.forEach(recipe => {
+          recipe.ingredients.forEach(({ quantity, unit, name }) => {
+            if (!quantity) return;
+  
+            const key = name.trim().toLowerCase();
+  
+            if (!groceryMap.has(key)) {
+              groceryMap.set(key, []);
+            }
+  
+            const num = parseFloat(quantity);
+            if (isNaN(num)) return;
+  
+            let amountInBase = unitConversions[unit] ? num * unitConversions[unit].toBase : num;
+            let baseUnit = unitConversions[unit]?.base || unit;
+  
+            groceryMap.get(key).push({ quantity: amountInBase, unit: baseUnit });
+          });
+        });
+  
+        groceryList.innerHTML = "";
+  
+        groceryMap.forEach((entries, name) => {
+          const unitGroups = {};
+  
+          entries.forEach(({ quantity, unit }) => {
+            if (!unitGroups[unit]) {
+              unitGroups[unit] = 0;
+            }
+            unitGroups[unit] += quantity;
+          });
+  
+          const parts = Object.entries(unitGroups).map(([unit, qty]) => {
+            let textParts = [];
+
+            if (unit === "cup") {
+              const wholeCups = Math.floor(qty);
+              const remainder = qty - wholeCups;
+
+              if (wholeCups > 0) {
+                textParts.push(`${wholeCups} cup${wholeCups > 1 ? 's' : ''}`);
+              }
+
+              const tablespoons = remainder * 16;
+              const wholeTbsp = Math.floor(tablespoons);
+              const remainingTbspFraction = tablespoons - wholeTbsp;
+
+              if (wholeTbsp > 0) {
+                textParts.push(`${wholeTbsp} Tbsp${wholeTbsp > 1 ? 's' : ''}`);
+              }
+
+              const teaspoons = remainingTbspFraction * 3;
+              const wholeTsp = Math.round(teaspoons);
+
+              if (wholeTsp > 0) {
+                textParts.push(`${wholeTsp} tsp${wholeTsp > 1 ? 's' : ''}`);
+              }
+
+              if (textParts.length === 0) {
+                textParts.push(`0 cup`);
+              }
+            } else {
+              const displayQty = qty % 1 !== 0 ? qty.toFixed(2) : qty;
+              textParts.push(`${displayQty} ${unit}`);
+            }
+
+            return textParts.join(' and ');
+          });
+
+  
+          const li = document.createElement("li");
+          li.textContent = `${parts.join(' and ')} ${name}`;
+          groceryList.appendChild(li);
+        });
+  
+        groceryListSection.classList.remove("hidden");
+      });
+    });
+  </script>
+  
   <script src="js/app.js"></script>
 </body>
 </html>

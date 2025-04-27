@@ -7,13 +7,13 @@
         "description": "Hearty rice bowl with a hint of spice. Best served with a side veggie.",
         "ingredients": [
             {
-                "quantity": "¼",
+                "quantity": "0.25",
                 "unit": "cup",
                 "name": "Brown Sugar",
                 "preparation": "packed"
             },
             {
-                "quantity": "¼",
+                "quantity": "0.25",
                 "unit": "cup",
                 "name": "Soy Sauce"
             },
@@ -23,18 +23,18 @@
                 "name": "Sesame Oil"
             },
             {
-                "quantity": "½",
+                "quantity": "0.5",
                 "unit": "tsp",
                 "name": "Gochugaru"
             },
             {
-                "quantity": "¼",
+                "quantity": "0.25",
                 "unit": "tsp",
                 "name": "Ginger"
             },
             {
                 "quantity": "3",
-                "unit": "cloves",
+                "unit": "clove",
                 "name": "Garlic"
             },
             {
@@ -44,11 +44,11 @@
             },
             {
                 "quantity": "2",
-                "unit": "stalks",
+                "unit": "stalk",
                 "name": "Green Onion"
             },
             {
-                "quantity": "¼",
+                "quantity": "0.25",
                 "unit": "tsp",
                 "name": "Sesame Seeds"
             }
@@ -68,18 +68,18 @@
         "description": "Sweet and spicy pork with veggies and tasty dressing.",
         "ingredients": [
             {
-                "quantity": "1¼",
+                "quantity": "1.25",
                 "unit": "lb",
                 "name": "Pork Tenderloin"
             },
             {
                 "quantity": "3",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Sambal Oelek"
             },
             {
                 "quantity": "2",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Brown Sugar"
             },
             {
@@ -94,17 +94,17 @@
             },
             {
                 "quantity": "3",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Soy Sauce"
             },
             {
-                "quantity": "2¼",
+                "quantity": "2.25",
                 "unit": "tsp",
                 "name": "Toasted Sesame Oil"
             },
             {
                 "quantity": "3",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Vegetable Oil"
             },
             {
@@ -120,7 +120,7 @@
             },
             {
                 "quantity": "1",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Seasoned Rice Vinegar"
             },
             {
@@ -146,7 +146,7 @@
             {
                 "quantity": "1",
                 "unit": "lb",
-                "name": "Cavatappi",
+                "name": "Pasta",
                 "preparation": "cooked"
             },
             {
@@ -175,7 +175,7 @@
             {
                 "quantity": "1",
                 "unit": "tsp",
-                "name": "Smoked Paprika"
+                "name": "Paprika"
             },
             {
                 "quantity": "1/2",
@@ -189,12 +189,12 @@
             },
             {
                 "quantity": "3",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Butter"
             },
             {
                 "quantity": "3",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Flour"
             },
             {
@@ -205,12 +205,12 @@
             },
             {
                 "quantity": "2",
-                "unit": "cups",
+                "unit": "cup",
                 "name": "Heavy Cream"
             },
             {
                 "quantity": "1",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Dijon Mustard"
             }
         ],
@@ -238,17 +238,17 @@
             {
                 "quantity": "8",
                 "unit": "oz",
-                "name": "Penne Pasta",
+                "name": "Pasta",
                 "preparation": "uncooked"
             },
             {
                 "quantity": "1",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Olive Oil"
             },
             {
                 "quantity": "2",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Butter"
             },
             {
@@ -321,7 +321,7 @@
             },
             {
                 "quantity": "1 1/2",
-                "unit": "tbsp",
+                "unit": "Tbsp",
                 "name": "Brown Sugar"
             },
             {
@@ -376,8 +376,8 @@
         "description": "A cozy, roasted tomato soup enhanced with fennel, garlic, and a touch of cream. Perfect with grilled cheese on the side.",
         "ingredients": [
             {
-                "quantity": "1¾",
-                "unit": "pounds",
+                "quantity": "1.75",
+                "unit": "pound",
                 "name": "Vine Ripe Tomatoes",
                 "preparation": "halved"
             },
@@ -388,9 +388,9 @@
                 "preparation": "peeled and halved"
             },
             {
-                "quantity": "½",
-                "unit": "",
-                "name": "Medium Fennel",
+                "quantity": "0.5",
+                "unit": "Medium",
+                "name": "Fennel",
                 "preparation": "cored and roughly chopped, fronds saved for garnish"
             },
             {
@@ -402,7 +402,7 @@
             {
                 "quantity": "2",
                 "unit": "Tbsp",
-                "name": "Chicken Fat or Unsalted Butter"
+                "name": "Butter"
             },
             {
                 "quantity": "2",
@@ -429,10 +429,10 @@
             {
                 "quantity": "1",
                 "unit": "tsp",
-                "name": "Smoked Paprika"
+                "name": "Paprika"
             },
             {
-                "quantity": "¼",
+                "quantity": "0.25",
                 "unit": "cup",
                 "name": "Heavy Cream"
             },
@@ -481,7 +481,7 @@
                 "preparation": "to taste"
             },
             {
-                "quantity": "¼",
+                "quantity": "0.25",
                 "unit": "cup",
                 "name": "Miso Paste"
             },
