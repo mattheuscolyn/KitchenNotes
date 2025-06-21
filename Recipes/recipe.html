@@ -12,7 +12,7 @@
   <!-- Header -->
   <header class="bg-black text-white fixed w-full top-0 left-0 z-10 p-4">
     <div class="flex justify-between items-center">
-      <h1 class="text-xl font-bold">Recipe Website</h1>
+      <h1 class="text-xl font-bold"><a href="/index.html">Recipe Website</a></h1>
       <div class="flex items-center space-x-4">
         <input type="text" id="search" class="p-2 rounded" placeholder="Search recipes...">
         <button id="menu-toggle" class="lg:hidden">
@@ -36,14 +36,15 @@
     </div>
   </nav>
 
-  <!-- Recipe List Side Menu (Initially Hidden) -->
+  <!-- Recipe List Side Menu -->
   <nav id="recipe-list-menu" class="fixed left-0 top-0 w-64 bg-gray-800 text-white h-full transform -translate-x-full transition-transform ease-in-out">
-    <div class="p-4">
+    <div class="p-4 pt-16">
         <button id="back-button" class="text-white text-lg">&larr; Back</button>
         <h2 class="text-2xl font-bold mt-4">Recipes</h2>
         <ul id="recipe-list" class="space-y-4 mt-8"></ul>
     </div>
   </nav>
+
 
   <!-- Recipe Detail Page Content -->
   <main class="pt-20 px-6">

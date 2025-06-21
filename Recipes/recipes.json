@@ -410,12 +410,6 @@
                 "name": "Olive Oil"
             },
             {
-                "quantity": "",
-                "unit": "",
-                "name": "Kosher Salt and Black Pepper",
-                "preparation": "to taste"
-            },
-            {
                 "quantity": "1",
                 "unit": "cup",
                 "name": "Chicken Stock",
@@ -475,12 +469,6 @@
                 "preparation": "sliced into four filets"
             },
             {
-                "quantity": "",
-                "unit": "",
-                "name": "Salt and Pepper",
-                "preparation": "to taste"
-            },
-            {
                 "quantity": "0.25",
                 "unit": "cup",
                 "name": "Miso Paste"
@@ -527,5 +515,601 @@
             "Brush the salmon with the reserved glaze and broil on high for 1-2 minutes, until the fish reaches an internal temperature of 125-130ºF.",
             "Garnish with chopped green onions and sesame seeds before serving, if desired."
         ]
-    }    
+    },
+    {
+        "title": "Stuffed Peppers",
+        "image": "Images/Stuffed-Peppers.jpg",
+        "total_time": "1 Hour 15 Minutes",
+        "yield": "4 to 6 Servings",
+        "description": "Classic stuffed peppers filled with ground beef, rice, tomato sauce, and cheese make an easy weeknight supper.",
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "name": "Ground Beef",
+                "preparation": "90% lean"
+            },
+            {
+                "quantity": "1.25",
+                "unit": "tsp",
+                "name": "Salt",
+                "preparation": "divided"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "tsp",
+                "name": "Baking Soda",
+                "preparation": "heaping"
+            },
+            {
+                "quantity": "3",
+                "unit": "large",
+                "name": "Bell Peppers",
+                "preparation": "cut in half from stem to bottom and cored"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Extra-Virgin Olive Oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "medium",
+                "name": "Yellow Onion",
+                "preparation": "finely chopped"
+            },
+            {
+                "quantity": "3",
+                "unit": "clove",
+                "name": "Garlic",
+                "preparation": "minced"
+            },
+            {
+                "quantity": "1.5",
+                "unit": "tsp",
+                "name": "Chili Powder"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "tsp",
+                "name": "Ground Cumin"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "tsp",
+                "name": "Dried Oregano"
+            },
+            {
+                "quantity": "8",
+                "unit": "oz",
+                "name": "Tomato Sauce",
+                "preparation": "canned"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Cooked Rice"
+            },
+            {
+                "quantity": "1.5",
+                "unit": "cup",
+                "name": "Shredded Monterey Jack or Cheddar Jack Cheese",
+                "preparation": "divided"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 425°F and set oven rack to middle position.",
+            "In a medium bowl, mash beef with 1 tsp salt and baking soda. Let sit for 20 minutes.",
+            "Line a 9x13-inch baking dish with foil if desired. Place peppers cut side up in the dish; drizzle with 1 tbsp oil and sprinkle with remaining ¼ tsp salt.",
+            "Roast peppers for about 20 minutes until slightly browned and tender-crisp.",
+            "Meanwhile, heat 2 tbsp oil in a large nonstick skillet over medium heat. Add onion and cook until translucent, 3 to 4 minutes.",
+            "Add garlic and cook 1 minute more, stirring constantly.",
+            "Add ground beef mixture, chili powder, cumin, and oregano. Increase heat to medium-high and cook, breaking up meat, for 4 to 5 minutes.",
+            "Add tomato sauce, bring to a boil, then reduce heat to medium-low and cook uncovered for 2 to 3 minutes.",
+            "Stir in cooked rice and ¾ cup of cheese until melted. Remove from heat.",
+            "Spoon meat filling evenly into roasted peppers. Top with remaining ¾ cup cheese.",
+            "Roast filled peppers for 10 to 15 minutes until hot and cheese is melted and bubbling. Serve immediately."
+        ]
+    },
+    {
+        "title": "Creamy Sausage Tortellini Soup",
+        "image": "Images/Creamy-Sausage-Tortellini-Soup.jpg",
+        "total_time": "35 Minutes",
+        "yield": "8 Servings",
+        "description": "A rich and hearty soup with crumbled sausage, cheese tortellini, fresh kale, and a creamy tomato base. Comforting and easy to prepare for any night of the week.",
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "pound",
+                "name": "Ground Pork Sausage"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Carrots",
+                "preparation": "chopped"
+            },
+            {
+                "quantity": "1",
+                "unit": "small",
+                "name": "Onion",
+                "preparation": "chopped"
+            },
+            {
+                "quantity": "3",
+                "unit": "cloves",
+                "name": "Garlic",
+                "preparation": "minced"
+            },
+            {
+                "quantity": "1",
+                "unit": "Tablespoon",
+                "name": "Italian Seasoning"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "cup",
+                "name": "Flour"
+            },
+            {
+                "quantity": "6",
+                "unit": "cups",
+                "name": "Chicken Broth"
+            },
+            {
+                "quantity": "6",
+                "unit": "ounce",
+                "name": "Tomato Paste",
+                "preparation": "canned"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Heavy Cream"
+            },
+            {
+                "quantity": "9",
+                "unit": "ounce",
+                "name": "Three Cheese Tortellini",
+                "preparation": "package"
+            },
+            {
+                "quantity": "3",
+                "unit": "cups",
+                "name": "Kale",
+                "preparation": "chopped"
+            }
+        ],
+        "instructions": [
+            "In a large pot over medium-high heat, add the sausage. Cook and crumble until browned, then remove and set aside.",
+            "Add the chopped carrots and onion to the pot and sauté until tender.",
+            "Add the minced garlic and Italian seasoning; cook for 1 minute more.",
+            "Stir in the flour to coat the vegetables, then return the sausage to the pot.",
+            "Pour in the chicken broth and add the tomato paste; stir to combine.",
+            "Add the heavy cream and tortellini. Bring to a simmer and cook for about 7 minutes, or until the tortellini is tender.",
+            "Stir in the chopped kale just before serving and season with salt and pepper to taste."
+        ]
+    },
+    {
+        "title": "Chicken Parmesan",
+        "image": "Images/Chicken-Parmesan.jpg",
+        "total_time": "45 Minutes",
+        "yield": "6 Servings",
+        "description": "Crispy breaded chicken breasts topped with marinara sauce and melted mozzarella cheese, baked to perfection and served with fresh basil. A comforting Italian classic.",
+        "ingredients": [
+            {
+                "quantity": "3",
+                "unit": "",
+                "name": "Boneless Skinless Chicken Breasts",
+                "preparation": "cut in half horizontally to make 6 breast halves"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "cup",
+                "name": "Freshly Grated Parmesan Cheese",
+                "preparation": "divided"
+            },
+            {
+                "quantity": "2",
+                "unit": "",
+                "name": "Eggs",
+                "preparation": "beaten"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Panko Bread Crumbs"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Italian Style Bread Crumbs",
+                "preparation": "or additional panko"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Garlic Powder"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Oil"
+            },
+            {
+                "quantity": "24",
+                "unit": "ounces",
+                "name": "Marinara Sauce",
+                "preparation": "store-bought or homemade"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Shredded Mozzarella Cheese"
+            },
+            {
+                "quantity": "",
+                "unit": "",
+                "name": "Fresh Basil Leaves",
+                "preparation": "for serving"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 450°F.",
+            "Butterfly chicken breasts by slicing each in half horizontally to make 6 thin pieces. Pat dry and season with salt and pepper.",
+            "In a shallow bowl, beat the eggs. In another shallow bowl, mix breadcrumbs, half of the parmesan cheese, and garlic powder.",
+            "Dip each chicken piece in the egg, then coat with the breadcrumb mixture.",
+            "Heat oil in a large skillet over medium-high heat. Cook chicken for about 2 minutes per side, until golden but not fully cooked.",
+            "Spread a thin layer of marinara sauce in the bottom of a 9×13” baking dish. Arrange the chicken pieces on top.",
+            "Top each piece of chicken with a spoonful of marinara sauce, mozzarella cheese, and the remaining parmesan.",
+            "Bake for 10–15 minutes, until the cheese is melted and bubbly and the chicken reaches 165°F internally.",
+            "Garnish with fresh chopped basil. Serve over cooked spaghetti with extra marinara, if desired."
+        ]
+    },
+    {
+        "title": "Roasted Miso Broccoli",
+        "image": "Images/Roasted-Miso-Broccoli.jpg",
+        "total_time": "30 Minutes",
+        "yield": "4 Servings",
+        "description": "Crispy roasted broccoli tossed in a savory-sweet miso glaze made with mirin, maple syrup, and rice vinegar. An easy and flavorful side dish.",
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "large crowns",
+                "name": "Broccoli",
+                "preparation": "cut into florets (or use a 12oz/340g bag of pre-cut florets)"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Avocado Oil",
+                "preparation": "for roasting"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "cup",
+                "name": "Mirin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Miso Paste",
+                "preparation": "white or yellow variety preferred"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Rice Vinegar"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Avocado Oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Pure Maple Syrup"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 400°F.",
+            "Spread broccoli florets on a baking sheet and toss with 1 tablespoon of avocado oil. Optionally season with salt and pepper.",
+            "Roast in the oven for about 20 minutes, or until broccoli is lightly charred and tender.",
+            "Meanwhile, prepare the miso sauce: In a small saucepan over medium-high heat, bring mirin to a boil and let it boil for 1 minute to evaporate the alcohol.",
+            "Reduce heat to medium-low and whisk in the miso paste until mostly dissolved.",
+            "Add rice vinegar, 1 tablespoon avocado oil, and maple syrup. Bring back to a boil, whisking continuously until smooth.",
+            "Remove from heat and let the sauce rest while broccoli finishes roasting.",
+            "Transfer roasted broccoli to a serving bowl, pour the miso sauce over it, toss to coat, and serve hot."
+        ]
+    },
+    {
+        "title": "Thai Red Curry",
+        "image": "Images/Thai-Red-Curry.jpg",
+        "total_time": "",
+        "yield": "",
+        "description": "A flavorful and aromatic Thai red curry made with tender chicken, vibrant vegetables, and a rich coconut milk-based sauce infused with red curry paste, lemongrass, and Thai basil.",
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "name": "Chicken Breast",
+                "preparation": "cut into thin strips"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "name": "Oil"
+            },
+            {
+                "quantity": "4",
+                "unit": "tbsp",
+                "name": "Red Curry Paste"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "",
+                "name": "Onion",
+                "preparation": "sliced"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "tbsp",
+                "name": "Garlic",
+                "preparation": "minced"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Ginger",
+                "preparation": "minced"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "tbsp",
+                "name": "Coriander Stem",
+                "preparation": "minced"
+            },
+            {
+                "quantity": "1",
+                "unit": "stalk",
+                "name": "Lemongrass"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "name": "Fish Sauce"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "tbsp",
+                "name": "Light Brown Sugar"
+            },
+            {
+                "quantity": "1",
+                "unit": "",
+                "name": "Red Bell Pepper",
+                "preparation": "cut into wedges"
+            },
+            {
+                "quantity": "1",
+                "unit": "",
+                "name": "Zucchini",
+                "preparation": "cut into cubes"
+            },
+            {
+                "quantity": "1.5",
+                "unit": "cup",
+                "name": "Coconut Milk"
+            },
+            {
+                "quantity": "1",
+                "unit": "cup",
+                "name": "Chicken Stock"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "name": "Lemon Juice"
+            },
+            {
+                "quantity": "8",
+                "unit": "leaves",
+                "name": "Thai Basil",
+                "preparation": "roughly torn"
+            }
+        ],
+        "instructions": [
+            "Sauté onion, ginger, and garlic in oil for one minute.",
+            "Add red curry paste and minced coriander stem. Sauté for 2–3 minutes until aromatic and oil begins to separate.",
+            "Add coconut milk, stock, lemon juice, brown sugar, fish sauce, and lemongrass stalk. Bring to a boil, then reduce to a simmer and cook for 2–3 minutes.",
+            "Add the chicken and simmer for 7–8 minutes until nearly cooked through.",
+            "Add the red bell pepper and zucchini when chicken is almost done. Cook for 2 more minutes until vegetables are just tender but still crisp.",
+            "Remove the lemongrass stalk. Stir in torn Thai basil leaves and serve."
+        ]
+    },
+    {
+        "title": "Tex-Mex Restaurant Enchiladas",
+        "image": "Images/Tex-Mex-Restaurant-Enchiladas.jpg",
+        "total_time": "30 Minutes",
+        "yield": "4 Servings",
+        "description": "A comforting and authentic Tex-Mex meal featuring beef enchiladas with homemade sauce, served with Mexican rice and refried beans.",
+        "ingredients": [
+            {
+                "section": "For the Mexican rice",
+                "items": [
+                    { "quantity": "2", "unit": "Tbsp", "name": "Vegetable Oil" },
+                    { "quantity": "1", "unit": "cup", "name": "Long-Grain White Rice", "preparation": "dry" },
+                    { "quantity": "8", "unit": "oz", "name": "Tomato Sauce", "preparation": "canned" },
+                    { "quantity": "2.5", "unit": "cups", "name": "Warm Water" },
+                    { "quantity": "1", "unit": "tsp", "name": "Chili Powder" },
+                    { "quantity": "2", "unit": "tsp", "name": "Calde de Tomate Tomato Bouillon" },
+                    { "quantity": "2", "unit": "cloves", "name": "Garlic", "preparation": "minced" },
+                    { "quantity": "", "unit": "", "name": "Salt", "preparation": "to taste" }
+                ]
+            },
+            {
+                "section": "For the refried beans",
+                "items": [
+                    { "quantity": "2", "unit": "Tbsp", "name": "Lard or Canola Oil" },
+                    { "quantity": "3", "unit": "cloves", "name": "Garlic", "preparation": "peeled" },
+                    { "quantity": "2", "unit": "15 oz cans", "name": "Pinto Beans" },
+                    { "quantity": "1", "unit": "tsp", "name": "Cumin" },
+                    { "quantity": "1", "unit": "tsp", "name": "Chili Powder" },
+                    { "quantity": "0.5", "unit": "tsp", "name": "Dried Oregano" },
+                    { "quantity": "", "unit": "", "name": "Salt", "preparation": "to taste" },
+                    { "quantity": "0.5", "unit": "", "name": "Lime", "preparation": "juiced (optional)" }
+                ]
+            },
+            {
+                "section": "For the enchiladas",
+                "items": [
+                    { "quantity": "3", "unit": "Tbsp", "name": "Olive Oil" },
+                    { "quantity": "3", "unit": "Tbsp", "name": "All-Purpose Flour" },
+                    { "quantity": "1", "unit": "Tbsp", "name": "Chili Powder" },
+                    { "quantity": "1", "unit": "tsp", "name": "Ground Cumin" },
+                    { "quantity": "0.5", "unit": "tsp", "name": "Garlic Powder" },
+                    { "quantity": "0.25", "unit": "tsp", "name": "Dried Oregano" },
+                    { "quantity": "0.25", "unit": "tsp", "name": "Salt", "preparation": "or more to taste" },
+                    { "quantity": "", "unit": "", "name": "Pinch of Cinnamon" },
+                    { "quantity": "2", "unit": "Tbsp", "name": "Tomato Paste" },
+                    { "quantity": "2", "unit": "cups", "name": "Chicken Broth" },
+                    { "quantity": "1", "unit": "tsp", "name": "Apple Cider Vinegar or Distilled White Vinegar" },
+                    { "quantity": "", "unit": "", "name": "Freshly Ground Black Pepper", "preparation": "to taste" },
+                    { "quantity": "1", "unit": "lb", "name": "Lean Ground Beef" },
+                    { "quantity": "2", "unit": "tsp", "name": "Chili Powder" },
+                    { "quantity": "1", "unit": "tsp", "name": "Cumin" },
+                    { "quantity": "1", "unit": "tsp", "name": "Garlic Powder" },
+                    { "quantity": "1", "unit": "tsp", "name": "Onion Powder" },
+                    { "quantity": "0.5", "unit": "tsp", "name": "Smoked Paprika" },
+                    { "quantity": "0.25", "unit": "tsp", "name": "Salt" },
+                    { "quantity": "2", "unit": "cups", "name": "Monterey Jack Cheese", "preparation": "grated" },
+                    { "quantity": "1", "unit": "cup", "name": "Cheddar Cheese", "preparation": "grated" },
+                    { "quantity": "8", "unit": "6-inch", "name": "White Corn Tortillas" },
+                    { "quantity": "", "unit": "", "name": "Cotija Cheese", "preparation": "for topping" },
+                    { "quantity": "", "unit": "", "name": "Sour Cream", "preparation": "for topping" },
+                    { "quantity": "", "unit": "", "name": "Cilantro", "preparation": "for topping" }
+                ]
+            }
+        ],
+        "instructions": [
+            "For the rice: Heat oil in a skillet over medium-high heat. Add rice and stir constantly until it starts to turn golden.",
+            "Add tomato sauce and water. Stir in chili powder, tomato bouillon, garlic, and salt. Bring to a boil, then cover and simmer until water is absorbed (about 20 minutes). Fluff and rest 5–10 minutes before serving.",
+            "For the beans: Heat oil or lard in a skillet over medium heat. Add garlic and brown both sides, then smash with a fork.",
+            "Add beans, chili powder, cumin, oregano, and salt. Heat through, then mash to desired consistency. Add lime juice if using.",
+            "For the enchilada sauce: In a pot, heat oil and whisk in flour, chili powder, cumin, garlic powder, oregano, salt, and cinnamon. Cook until fragrant and darkened.",
+            "Whisk in tomato paste and chicken broth until smooth. Simmer until thickened (5–7 minutes), then remove from heat. Stir in vinegar and season with salt and pepper.",
+            "For the filling: In a skillet, brown ground beef with chili powder, cumin, garlic powder, onion powder, paprika, and salt. Stir in 1/2 cup enchilada sauce.",
+            "Preheat oven to 350°F. Pour a thin layer of sauce in a baking dish. Fill tortillas with beef, roll, and place seam side down.",
+            "Top with remaining sauce, then Monterey Jack and cheddar. Bake for 25 minutes until bubbly and golden.",
+            "Garnish enchiladas with cotija, sour cream, and cilantro. Serve with Mexican rice and refried beans."
+        ]
+    },
+    {
+        "title": "Mapo Tofu",
+        "image": "Images/Mapo-Tofu.jpg",
+        "total_time": "35 Minutes",
+        "yield": "6 Servings",
+        "description": "A bold and spicy Sichuan dish featuring silken tofu, ground pork, fermented bean paste, and toasted chilies in a rich, mouth-numbing sauce.",
+        "ingredients": [
+            {
+                "quantity": "0.5",
+                "unit": "cup",
+                "name": "Oil",
+                "preparation": "divided"
+            },
+            {
+                "quantity": "1",
+                "unit": "",
+                "name": "Fresh Thai Bird Chili Peppers",
+                "preparation": "thinly sliced"
+            },
+            {
+                "quantity": "6",
+                "unit": "",
+                "name": "Dried Red Chilies",
+                "preparation": "roughly chopped"
+            },
+            {
+                "quantity": "0.5",
+                "unit": "tbsp",
+                "name": "Sichuan Peppercorns",
+                "preparation": "powdered or finely ground (reserve 1/4 tsp for garnish)"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Ginger",
+                "preparation": "finely minced"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "name": "Garlic",
+                "preparation": "finely minced"
+            },
+            {
+                "quantity": "8",
+                "unit": "oz",
+                "name": "Ground Pork"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "name": "Spicy Bean Sauce"
+            },
+            {
+                "quantity": "2/3",
+                "unit": "cup",
+                "name": "Chicken Broth",
+                "preparation": "or water"
+            },
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "name": "Silken Tofu",
+                "preparation": "cut into 1-inch cubes"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "cup",
+                "name": "Water"
+            },
+            {
+                "quantity": "1.5",
+                "unit": "tsp",
+                "name": "Cornstarch"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "tsp",
+                "name": "Sesame Oil",
+                "preparation": "optional"
+            },
+            {
+                "quantity": "0.25",
+                "unit": "tsp",
+                "name": "Sugar",
+                "preparation": "optional"
+            },
+            {
+                "quantity": "1",
+                "unit": "",
+                "name": "Green Onion",
+                "preparation": "finely chopped"
+            }
+        ],
+        "instructions": [
+            "Heat a wok or small saucepan over low heat. Add half of the oil and both the fresh and dried chilies. Toast for about 5 minutes until fragrant, stirring occasionally. Be careful not to burn. Remove from heat and set aside.",
+            "In the same wok, heat the remaining oil over medium heat. Add the minced ginger and sauté for 1 minute. Add the garlic and cook for 1 more minute.",
+            "Increase heat to high and add ground pork. Break it up and cook until fully browned.",
+            "Stir in the ground Sichuan peppercorns and cook for 15–30 seconds without burning.",
+            "Add the spicy bean sauce and stir well. Pour in the chicken broth and simmer for 1–2 minutes.",
+            "Mix the water and cornstarch in a small bowl. Stir the cornstarch slurry into the sauce and let it bubble until thickened.",
+            "Add the reserved chili oil (including the peppers, unless using pre-made chili oil, in which case use only the oil).",
+            "Gently stir in the tofu and cook for 3–5 minutes, tossing gently to coat.",
+            "Add the sesame oil and sugar (if using), along with the scallions. Stir until the scallions wilt.",
+            "Garnish with the reserved 1/4 tsp ground Sichuan peppercorns before serving."
+        ]
+    }
 ]

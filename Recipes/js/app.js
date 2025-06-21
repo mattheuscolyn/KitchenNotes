@@ -105,7 +105,31 @@ async function loadRecipeDetails() {
       document.getElementById("total-time").textContent = recipe.total_time;
       document.getElementById("yield").textContent = recipe.yield;
 
-      populateList("ingredient-list", recipe.ingredients, formatIngredient);
+      const ingredientList = document.getElementById("ingredient-list");
+      ingredientList.innerHTML = "";
+
+      // Check if ingredients are sectioned
+      if (recipe.ingredients && recipe.ingredients.length && recipe.ingredients[0].items) {
+        // Handle sectioned ingredients
+        recipe.ingredients.forEach(section => {
+          // Create and append section title
+          const sectionTitle = document.createElement("li");
+          sectionTitle.textContent = section.section;
+          sectionTitle.classList.add("font-semibold", "mt-4", "list-none");
+          ingredientList.appendChild(sectionTitle);
+
+          // Add ingredients under this section
+          section.items.forEach(ingredient => {
+            const li = document.createElement("li");
+            li.textContent = formatIngredient(ingredient);
+            ingredientList.appendChild(li);
+          });
+        });
+      } else {
+        // Fallback: flat list
+        populateList("ingredient-list", recipe.ingredients, formatIngredient);
+      }
+
       populateList("instruction-list", recipe.instructions);
     } else {
       document.getElementById("recipe-detail").innerHTML = `<p class="text-red-500">Recipe not found.</p>`;
